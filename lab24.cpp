@@ -84,7 +84,7 @@ ostream & operator <<(ostream &os , const ComplexNumber &c){
 	}
 	return os;
 }
-//Write your code here
+
 
 int main(){
 	ComplexNumber a(1.5,2),b(3.2,-2.5),c(-1,1.2);	
@@ -126,11 +126,6 @@ int main(){
 	cout << (ComplexNumber(1,1) == 1) << "\n";
 	cout << (0 == ComplexNumber()) << "\n";
 }
-
-
-
-
-
 
 
 
